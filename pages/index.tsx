@@ -8,7 +8,7 @@ import Layout from '../layouts/default';
 const Home: NextPage = () => {
   return (
     <Layout>
-      <h1>Hello Next.js</h1>
+      <h1>Hello Friend!</h1>
     </Layout>
   );
 };
