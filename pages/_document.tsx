@@ -19,7 +19,7 @@ class CustomDocument extends NextDocument<Props> {
       <Html lang="en-US">
         <Head>
           <meta name="viewport" content="width=device-width,height=device-height" key="viewport" />
-          <meta name="theme-color" content="#087da1" key="themeColor" />
+          <meta name="theme-color" content="#0D0D11" key="themeColor" />
           <meta name="msapplication-TileColor" content="#0D0D11" />
           <meta name="theme-color" content="#0D0D11" />
 
