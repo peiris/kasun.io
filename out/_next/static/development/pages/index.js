@@ -850,7 +850,8 @@ function (_Component) {
         },
         __self: this
       }, __jsx("a", {
-        href: "",
+        href: "http://github.com/peiris",
+        target: "_blank",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 110
@@ -871,7 +872,8 @@ function (_Component) {
         },
         __self: this
       }, __jsx("a", {
-        href: "",
+        href: "https://twitter.com/peiris__",
+        target: "_blank",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 111
@@ -892,7 +894,8 @@ function (_Component) {
         },
         __self: this
       }, __jsx("a", {
-        href: "",
+        href: "https://www.instagram.com/peiris__/",
+        target: "_blank",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 112
@@ -913,7 +916,8 @@ function (_Component) {
         },
         __self: this
       }, __jsx("a", {
-        href: "",
+        href: "https://www.linkedin.com/in/kasunharshana/",
+        target: "_blank",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 113
