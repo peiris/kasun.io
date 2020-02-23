@@ -104,6 +104,8 @@ export default class SectionAbout extends Component<Props> {
           <div className={'section-about__info-chip'}>
             <label className={'section-about__info-chip__label'} style={{ marginBottom: '2vw' }}>Connect</label>
 
+            <br />
+
             <ul className={'section-about__icon-list'}>
               <li><a href=""><GitHubIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
               <li><a href=""><TwitterIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
