@@ -107,10 +107,10 @@ export default class SectionAbout extends Component<Props> {
             <br />
 
             <ul className={'section-about__icon-list'}>
-              <li><a href=""><GitHubIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
-              <li><a href=""><TwitterIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
-              <li><a href=""><InstagramIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
-              <li><a href=""><LinkedInIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
+              <li><a href="http://github.com/peiris" target="_blank"><GitHubIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
+              <li><a href="https://twitter.com/peiris__" target="_blank"><TwitterIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
+              <li><a href="https://www.instagram.com/peiris__/" target="_blank"><InstagramIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
+              <li><a href="https://www.linkedin.com/in/kasunharshana/" target="_blank"><LinkedInIcon width={'2.6vw'} height={'2.6vw'} /></a></li>
             </ul>
           </div>
         </section>
