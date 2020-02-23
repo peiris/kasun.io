@@ -13,16 +13,16 @@ export default class nav extends Component<Props> {
       <nav className={'nav'}>
         <ul className={'nav__list'}>
           <li>
-            <Link href="/about"><a>About</a></Link>
+            <Link href="#about"><a>About</a></Link>
           </li>
           <li>
-            <Link href="/services"><a>Services</a></Link>
+            <Link href="#services"><a>Services</a></Link>
           </li>
           <li>
-            <Link href="/work"><a>Work</a></Link>
+            <Link href="#work"><a>Work</a></Link>
           </li>
           <li>
-            <Link href="/contact"><a>Contact</a></Link>
+            <Link href="#contact"><a>Contact</a></Link>
           </li>
         </ul>
       </nav>

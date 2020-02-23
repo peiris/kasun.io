@@ -12,11 +12,6 @@ interface Props {
 
 /* Class */
 class App extends NextApp<Props> {
-  static async getInitialProps(context: AppContext) {
-    const initialProps = await NextApp.getInitialProps(context);
-    return { ...initialProps };
-  }
-
   render() {
     const { pageProps, Component } = this.props;
     return (

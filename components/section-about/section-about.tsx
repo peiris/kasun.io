@@ -14,7 +14,7 @@ export default class SectionAbout extends Component<Props> {
   render() {
     return (
       <>
-        <section className={'section-about'}>
+        <section id="about" className={'section-about'}>
           <h3 className={'section-about__sub-heading'} style={{ paddingTop: '3vw' }}>
             About
         </h3>
@@ -31,7 +31,7 @@ export default class SectionAbout extends Component<Props> {
         </p>
         </section>
 
-        <section className={'section-about'}>
+        <section id="services" className={'section-about'}>
           <h3 className={'section-about__sub-heading'}>
             Services
         </h3>
@@ -62,7 +62,7 @@ export default class SectionAbout extends Component<Props> {
           </ul>
         </section>
 
-        <section className={'section-about'}>
+        <section id="work" className={'section-about'}>
           <h3 className={'section-about__sub-heading'}>
             Personal projects
         </h3>
@@ -83,7 +83,7 @@ export default class SectionAbout extends Component<Props> {
           </ul>
         </section>
 
-        <section className={'section-about'}>
+        <section id="contact" className={'section-about'}>
           <h3 className={'section-about__sub-heading'}>
             Say Hello
           </h3>
