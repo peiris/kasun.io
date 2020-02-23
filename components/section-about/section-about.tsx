@@ -95,7 +95,7 @@ export default class SectionAbout extends Component<Props> {
             <span>Talk</span>
           </h2>
 
-          <div className={'section-about__info-chip'} style={{ marginBottom: '6vw' }}>
+          <div className={'section-about__info-chip'}>
             <label className={'section-about__info-chip__label'}>Business enquiries</label>
 
             <h2 className={'section-about__info-chip__value'}><a href="mailto:hello@kasun.io">hello@kasun.io</a></h2>
