@@ -172,7 +172,8 @@
     flex-direction: column;
 
     @media screen and (max-width: 480px) {
-      padding-left: 24vw;
+      padding-left: 15vw;
+      margin-bottom: 8vw;
     }
 
     &__label {
@@ -183,11 +184,13 @@
 
       @media screen and (max-width: 480px) {
         margin-bottom: 8px !important;
+        font-size: 1.4vmax;
+        font-weight: 500;
       }
     }
 
     &__value {
-      font-size: 1.8vmax;
+      font-size: 2.4vmax;
       font-weight: 500;
     }
   }
@@ -204,8 +207,8 @@
 
       @media screen and (max-width: 480px) {
         svg {
-          width: 20px !important;
-          height: 20px !important;
+          width: 24px !important;
+          height: 24px !important;
         }
 
         &:not(:last-of-type) {
