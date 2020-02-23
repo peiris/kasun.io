@@ -25,13 +25,22 @@ export default class Layout extends Component<Props> {
 
   render() {
     return (
-      <div>
+      <>
         <Head>
           <title>{this.updateTitle(this.props.title)}</title>
         </Head>
         <Header />
-        {this.props.children}
-      </div>
+        <section className={'grid-container'}>
+          <span className="grid-container__line grid-container__line--one"></span>
+          <span className="grid-container__line grid-container__line--two"></span>
+          <span className="grid-container__line grid-container__line--three"></span>
+          <span className="grid-container__line grid-container__line--four"></span>
+
+          <section className={'section-layout'}>
+            {this.props.children}
+          </section>
+        </section>
+      </>
     )
   }
 }
