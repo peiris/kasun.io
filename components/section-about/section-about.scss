@@ -3,6 +3,10 @@
   position: relative;
   padding-bottom: 7vw;
 
+  @media screen and (max-width: 480px) {
+    padding-bottom: 10vw;
+  }
+
   /* Subheading */
   &__sub-heading {
     padding-top: 7vw;
