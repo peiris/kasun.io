@@ -14,27 +14,38 @@ export default class SectionAbout extends Component<Props> {
   render() {
     return (
       <>
-        <section id="about" className={'section-about'}>
+        <section id="about" className={'section-about rellax'}>
+          {/* <span className="section-about__image rellax" data-rellax-speed="3">
+            <img src="/img/photo-1569343285904-001a0ee57edc.jpeg"/>
+          </span> */}
+
           <h3 className={'section-about__sub-heading'} style={{ paddingTop: '3vw' }}>
             About
-        </h3>
+          </h3>
 
           <span className={'section-about__number'}>01</span>
 
           <h2 className={'section-about__heading'}>
-            <span>Hello</span>
-            <span>Friend.</span>
+            <span>Kasun</span>
+            <span>Peiris</span>
           </h2>
 
           <p className={'section-about__description'}>
-            I’m Kasun Peiris, A full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.
-        </p>
+            Hi, I’m a full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.
+
+            {/* <span className="lg-green rellax" data-rellax-speed="1" style={{'transform': 'rotate(45deg)'}}></span> */}
+            {/* <span className="lg-img rellax" data-rellax-speed="1" style={{'background': 'url(https://github.blog/wp-content/themes/github-blog/assets/images/dot-left-corner.png)'}}></span> */}
+          </p>
         </section>
 
-        <section id="services" className={'section-about'}>
+        <section id="services" className={'section-about rellax'}>
+          {/* <span className="section-about__image section-about__image--left rellax">
+            <img src="/img/photo-1553798179-7e3cc2c3f89a.jpeg"/>
+          </span> */}
+          
           <h3 className={'section-about__sub-heading'}>
             Services
-        </h3>
+          </h3>
 
           <span className={'section-about__number'}>02</span>
 
@@ -62,7 +73,7 @@ export default class SectionAbout extends Component<Props> {
           </ul>
         </section>
 
-        <section id="work" className={'section-about'}>
+        <section id="work" className={'section-about rellax'}>
           <h3 className={'section-about__sub-heading'}>
             Personal projects
         </h3>
@@ -83,7 +94,7 @@ export default class SectionAbout extends Component<Props> {
           </ul>
         </section>
 
-        <section id="contact" className={'section-about'}>
+        <section id="contact" className={'section-about rellax'}>
           <h3 className={'section-about__sub-heading'}>
             Say Hello
           </h3>
@@ -98,7 +109,7 @@ export default class SectionAbout extends Component<Props> {
           <div className={'section-about__info-chip'}>
             <label className={'section-about__info-chip__label'}>Business enquiries</label>
 
-            <h2 className={'section-about__info-chip__value'}><a href="mailto:hello@kasun.io">hello@kasun.io</a></h2>
+            <h2 className={'section-about__info-chip__value'}><a href="mailto:hello@kasun.io">work@kasun.io</a></h2>
           </div>
 
           <div className={'section-about__info-chip'}>

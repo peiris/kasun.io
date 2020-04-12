@@ -12,6 +12,11 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <SectionAbout />
+      <main>
+        <div id="cursor" className="cursor cursor--inner"></div>
+        <div id="cursor-outer" className="cursor cursor--outer"></div>
+        {/* <canvas className="cursor cursor--canvas"></canvas> */}
+      </main>
     </Layout>
   );
 };
