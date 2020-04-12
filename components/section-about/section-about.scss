@@ -62,6 +62,10 @@
     font-weight: 800;
     // line-height: 1;
     line-height: 0.84;
+
+    @media screen and (max-width: 480px) {
+      line-height: 1;
+    }
     
     
     // -webkit-background-clip: text;
@@ -126,7 +130,12 @@
 
     @media screen and (max-width: 480px) {
       margin-bottom: 13vw;
-      font-size: 16vmin;
+      font-size: 14vmin;
+    }
+
+    @media screen and (max-width: 375px) {
+      margin-bottom: 13vw;
+      font-size: 13vmin;
     }
 
     @media screen and (min-height: 940px) {
