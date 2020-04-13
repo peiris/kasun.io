@@ -15,8 +15,8 @@ export default class SectionAbout extends Component<Props> {
     return (
       <>
         <div id="about" className="section-wrapper">
-          <section className={'section-about rellax'}>
-            {/* <span className="section-about__image rellax" data-rellax-speed="3">
+          <section className={'section-about'}>
+            {/* <span className="section-about__image" data-speed="3">
               <img src="/img/photo-1569343285904-001a0ee57edc.jpeg"/>
             </span> */}
 
@@ -26,23 +26,23 @@ export default class SectionAbout extends Component<Props> {
 
             <span className={'section-about__number'}>01</span>
 
-            <h2 className={'section-about__heading'}>
-              <span>Kasun</span>
-              <span>Peiris</span>
+            <h2 id="reveal1" className={'section-about__heading viewport-heading'}>
+              <div data-splitting>Kasun</div>
+              <div data-splitting>Peiris</div>
             </h2>
 
             <p className={'section-about__description'}>
               Hi, I’m a full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.
 
-              {/* <span className="lg-green rellax" data-rellax-speed="1" style={{'transform': 'rotate(45deg)'}}></span> */}
-              {/* <span className="lg-img rellax" data-rellax-speed="1" style={{'background': 'url(https://github.blog/wp-content/themes/github-blog/assets/images/dot-left-corner.png)'}}></span> */}
+              {/* <span className="lg-green" data-speed="1" style={{'transform': 'rotate(45deg)'}}></span> */}
+              {/* <span className="lg-img" data-speed="1" style={{'background': 'url(https://github.blog/wp-content/themes/github-blog/assets/images/dot-left-corner.png)'}}></span> */}
             </p>
           </section>
         </div>
         
         <div id="services" className="section-wrapper">
-          <section className={'section-about rellax'}>
-          {/* <span className="section-about__image section-about__image--left rellax">
+          <section className={'section-about'}>
+          {/* <span className="section-about__image section-about__image--left">
             <img src="/img/photo-1553798179-7e3cc2c3f89a.jpeg"/>
           </span> */}
           
@@ -52,9 +52,9 @@ export default class SectionAbout extends Component<Props> {
 
           <span className={'section-about__number'}>02</span>
 
-          <h2 className={'section-about__heading'}>
-            <span>Exper</span>
-            <span>-tise</span>
+          <h2 className={'section-about__heading non-viewport-heading services-heading'}>
+            <div data-splitting>Exper</div>
+            <div data-splitting>-tise</div>
           </h2>
 
           <div className={'section-about__stat'}>
@@ -78,16 +78,16 @@ export default class SectionAbout extends Component<Props> {
         </div>
         
         <div id="work" className="section-wrapper">
-          <section className={'section-about rellax'}>
+          <section className={'section-about'}>
           <h3 className={'section-about__sub-heading'}>
             Personal projects
         </h3>
 
           <span className={'section-about__number'}>03</span>
 
-          <h2 className={'section-about__heading'}>
-            <span>Port-</span>
-            <span>folio</span>
+          <h2 className={'section-about__heading non-viewport-heading'}>
+            <div data-splitting>Port-</div>
+            <div data-splitting>folio</div>
           </h2>
 
           <ul className={'section-about__list'} style={{ paddingTop: 0 }}>
@@ -101,16 +101,16 @@ export default class SectionAbout extends Component<Props> {
         </div>
         
         <div id="contact" className="section-wrapper">
-          <section className={'section-about rellax'}>
+          <section className={'section-about'}>
           <h3 className={'section-about__sub-heading'}>
             Say Hello
           </h3>
 
           <span className={'section-about__number'}>04</span>
 
-          <h2 className={'section-about__heading'}>
-            <span>Let's</span>
-            <span>Talk</span>
+          <h2 className={'section-about__heading non-viewport-heading'}>
+            <div data-splitting>Let's</div>
+            <div data-splitting>Talk</div>
           </h2>
 
           <div className={'section-about__info-chip'}>

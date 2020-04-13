@@ -28,17 +28,21 @@ class CustomDocument extends NextDocument<Props> {
           <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0D0D11" />
+          <link rel="stylesheet" href="/scripts/splitter/splitting.css"/>
 
-          <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&family=DM+Serif+Display&display=swap" rel="stylesheet" />
+          {/* <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&family=DM+Serif+Display&display=swap" rel="stylesheet" /> */}
 
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" ></script>
-          {/* <link rel="stylesheet" href="/styles/demo.css"/> */}
+          <script src="/scripts/ScrollMagic.js"></script>
+          <script src="/scripts/debug.addIndicators.js"></script>
+          <script src="/scripts/gsap.min.js"></script>
+          <script src="/scripts/splitter/splitting.min.js"></script>
         </Head>
         <body>
           <Main />
           <NextScript />
           <script src="/scripts/cursor.js"></script>
+          <script src="/scripts/scroll.js"></script>
+          <script src="/scripts/text.js"></script>
         </body>
       </Html>
     );

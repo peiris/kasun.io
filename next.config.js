@@ -2,6 +2,16 @@
 const withSass = require('@zeit/next-sass')
 module.exports = withSass({
   webpack(config, options) {
+    // const original = config.entry;
+    // config.entry = function () {
+    //   return original()
+    //     .then((entry) => {
+    //       // do something with it
+    //       console.log(entry);
+    //       return entry;
+    //     })
+    // }
+
     config.module.rules.push({
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
       use: {
@@ -11,6 +21,7 @@ module.exports = withSass({
         }
       }
     });
+
     return config;
   }
 })
