@@ -14,31 +14,34 @@ export default class SectionAbout extends Component<Props> {
   render() {
     return (
       <>
-        <section id="about" className={'section-about rellax'}>
-          {/* <span className="section-about__image rellax" data-rellax-speed="3">
-            <img src="/img/photo-1569343285904-001a0ee57edc.jpeg"/>
-          </span> */}
+        <div id="about" className="section-wrapper">
+          <section className={'section-about rellax'}>
+            {/* <span className="section-about__image rellax" data-rellax-speed="3">
+              <img src="/img/photo-1569343285904-001a0ee57edc.jpeg"/>
+            </span> */}
 
-          <h3 className={'section-about__sub-heading'} style={{ paddingTop: '3vw' }}>
-            About
-          </h3>
+            <h3 className={'section-about__sub-heading'} style={{ paddingTop: '3vw' }}>
+              About
+            </h3>
 
-          <span className={'section-about__number'}>01</span>
+            <span className={'section-about__number'}>01</span>
 
-          <h2 className={'section-about__heading'}>
-            <span>Kasun</span>
-            <span>Peiris</span>
-          </h2>
+            <h2 className={'section-about__heading'}>
+              <span>Kasun</span>
+              <span>Peiris</span>
+            </h2>
 
-          <p className={'section-about__description'}>
-            Hi, I’m a full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.
+            <p className={'section-about__description'}>
+              Hi, I’m a full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.
 
-            {/* <span className="lg-green rellax" data-rellax-speed="1" style={{'transform': 'rotate(45deg)'}}></span> */}
-            {/* <span className="lg-img rellax" data-rellax-speed="1" style={{'background': 'url(https://github.blog/wp-content/themes/github-blog/assets/images/dot-left-corner.png)'}}></span> */}
-          </p>
-        </section>
-
-        <section id="services" className={'section-about rellax'}>
+              {/* <span className="lg-green rellax" data-rellax-speed="1" style={{'transform': 'rotate(45deg)'}}></span> */}
+              {/* <span className="lg-img rellax" data-rellax-speed="1" style={{'background': 'url(https://github.blog/wp-content/themes/github-blog/assets/images/dot-left-corner.png)'}}></span> */}
+            </p>
+          </section>
+        </div>
+        
+        <div id="services" className="section-wrapper">
+          <section className={'section-about rellax'}>
           {/* <span className="section-about__image section-about__image--left rellax">
             <img src="/img/photo-1553798179-7e3cc2c3f89a.jpeg"/>
           </span> */}
@@ -72,8 +75,10 @@ export default class SectionAbout extends Component<Props> {
             <li key={6}>DigitalOcean &amp; AWS</li>
           </ul>
         </section>
-
-        <section id="work" className={'section-about rellax'}>
+        </div>
+        
+        <div id="work" className="section-wrapper">
+          <section className={'section-about rellax'}>
           <h3 className={'section-about__sub-heading'}>
             Personal projects
         </h3>
@@ -93,8 +98,10 @@ export default class SectionAbout extends Component<Props> {
             <li>Invoice It <span>Case-study coming soon</span></li>
           </ul>
         </section>
-
-        <section id="contact" className={'section-about rellax'}>
+        </div>
+        
+        <div id="contact" className="section-wrapper">
+          <section className={'section-about rellax'}>
           <h3 className={'section-about__sub-heading'}>
             Say Hello
           </h3>
@@ -125,6 +132,7 @@ export default class SectionAbout extends Component<Props> {
             </ul>
           </div>
         </section>
+        </div>
       </>
     )
   }

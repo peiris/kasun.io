@@ -59,7 +59,7 @@
     flex-direction: column;
     font-family: 'Almarai', sans-serif;
     font-size: 13.4vmax;
-    font-weight: 800;
+    font-weight: 900;
     // line-height: 1;
     line-height: 0.84;
 
@@ -102,8 +102,8 @@
 
     span {
       margin-left: -0.95vw;
-      font-weight: 800;
-      letter-spacing: 0;
+      // font-weight: 800;
+      letter-spacing: -5px;
       text-transform: uppercase;
 
       @media screen and (min-height: 940px) {
@@ -229,7 +229,7 @@
     padding-left: calc(10vw + 36px);
     font-family: var(--font-family-serif);
     font-size: 1.2vmax;
-    line-height: 2.4;
+    line-height: 1.9;
     letter-spacing: 0.1px;
     list-style: disc;
 
