@@ -466,7 +466,7 @@ function (_Component) {
     value: function render() {
       return __jsx(react__WEBPACK_IMPORTED_MODULE_6___default.a.Fragment, null, __jsx("section", {
         id: "about",
-        className: 'section-about',
+        className: 'section-about rellax',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
@@ -479,199 +479,199 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 22
         },
         __self: this
       }, "About"), __jsx("span", {
         className: 'section-about__number',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 26
         },
         __self: this
       }, "01"), __jsx("h2", {
         className: 'section-about__heading',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 28
         },
         __self: this
       }, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
-      }, "Hello"), __jsx("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 26
-        },
-        __self: this
-      }, "Friend.")), __jsx("p", {
-        className: 'section-about__description',
-        __source: {
-          fileName: _jsxFileName,
           lineNumber: 29
         },
         __self: this
-      }, "I\u2019m Kasun Peiris, A full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.")), __jsx("section", {
-        id: "services",
-        className: 'section-about',
+      }, "Kasun"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 30
+        },
+        __self: this
+      }, "Peiris")), __jsx("p", {
+        className: 'section-about__description',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33
+        },
+        __self: this
+      }, "Hi, I\u2019m a full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.")), __jsx("section", {
+        id: "services",
+        className: 'section-about rellax',
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
         },
         __self: this
       }, __jsx("h3", {
         className: 'section-about__sub-heading',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 46
         },
         __self: this
       }, "Services"), __jsx("span", {
         className: 'section-about__number',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 50
         },
         __self: this
       }, "02"), __jsx("h2", {
         className: 'section-about__heading',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 52
         },
         __self: this
       }, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 53
         },
         __self: this
       }, "Exper"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 54
         },
         __self: this
       }, "-tise")), __jsx("div", {
         className: 'section-about__stat',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 57
         },
         __self: this
       }, __jsx("span", {
         className: "section-about__stat__number",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 58
         },
         __self: this
       }, "7"), __jsx("span", {
         className: "section-about__stat__label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 59
         },
         __self: this
       }, "Years")), __jsx("p", {
         className: 'section-about__description section-about__description--right',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 62
         },
         __self: this
       }, "Design, strategy, management, creative direction & development are my specialties, and I've been honing in my skills for about almost 7 years. In all my projects, I find that efficient work-flows, excellent communication and a dose of self-discipline are key - a strong work ethic has driven my success in a myriad of specialties."), __jsx("ul", {
         className: 'section-about__list',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 66
         },
         __self: this
       }, __jsx("li", {
         key: 1,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 67
         },
         __self: this
       }, "User experience design"), __jsx("li", {
         key: 2,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 68
         },
         __self: this
       }, "UI engineering"), __jsx("li", {
         key: 3,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 58
+          lineNumber: 69
         },
         __self: this
       }, "Front-end architecturing"), __jsx("li", {
         key: 4,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 70
         },
         __self: this
       }, "MERN / MEAN stack"), __jsx("li", {
         key: 5,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 71
         },
         __self: this
       }, "Mobile app engineering"), __jsx("li", {
         key: 6,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 72
         },
         __self: this
       }, "DigitalOcean & AWS"))), __jsx("section", {
         id: "work",
-        className: 'section-about',
+        className: 'section-about rellax',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 76
         },
         __self: this
       }, __jsx("h3", {
         className: 'section-about__sub-heading',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 77
         },
         __self: this
       }, "Personal projects"), __jsx("span", {
         className: 'section-about__number',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 81
         },
         __self: this
       }, "03"), __jsx("h2", {
         className: 'section-about__heading',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 83
         },
         __self: this
       }, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 73
+          lineNumber: 84
         },
         __self: this
       }, "Port-"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 74
+          lineNumber: 85
         },
         __self: this
       }, "folio")), __jsx("ul", {
@@ -681,143 +681,143 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 88
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 89
         },
         __self: this
       }, "WhatTheHex?! ", __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 78
+          lineNumber: 89
         },
         __self: this
       }, "Case-study coming soon")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 90
         },
         __self: this
       }, "Karapincha UI ", __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 90
         },
         __self: this
       }, "Case-study coming soon")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 91
         },
         __self: this
       }, "Pimp My Quote ", __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 80
+          lineNumber: 91
         },
         __self: this
       }, "Case-study coming soon")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 92
         },
         __self: this
       }, "Slack That Banner ", __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 81
+          lineNumber: 92
         },
         __self: this
       }, "Case-study coming soon")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 93
         },
         __self: this
       }, "Invoice It ", __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 93
         },
         __self: this
       }, "Case-study coming soon")))), __jsx("section", {
         id: "contact",
-        className: 'section-about',
+        className: 'section-about rellax',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 86
+          lineNumber: 97
         },
         __self: this
       }, __jsx("h3", {
         className: 'section-about__sub-heading',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 98
         },
         __self: this
       }, "Say Hello"), __jsx("span", {
         className: 'section-about__number',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 91
+          lineNumber: 102
         },
         __self: this
       }, "04"), __jsx("h2", {
         className: 'section-about__heading',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 104
         },
         __self: this
       }, __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 105
         },
         __self: this
       }, "Let's"), __jsx("span", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 95
+          lineNumber: 106
         },
         __self: this
       }, "Talk")), __jsx("div", {
         className: 'section-about__info-chip',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 109
         },
         __self: this
       }, __jsx("label", {
         className: 'section-about__info-chip__label',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 110
         },
         __self: this
       }, "Business enquiries"), __jsx("h2", {
         className: 'section-about__info-chip__value',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 112
         },
         __self: this
       }, __jsx("a", {
         href: "mailto:hello@kasun.io",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 112
         },
         __self: this
-      }, "hello@kasun.io"))), __jsx("div", {
+      }, "work@kasun.io"))), __jsx("div", {
         className: 'section-about__info-chip',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 115
         },
         __self: this
       }, __jsx("label", {
@@ -827,26 +827,26 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 116
         },
         __self: this
       }, "Connect"), __jsx("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 118
         },
         __self: this
       }), __jsx("ul", {
         className: 'section-about__icon-list',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 120
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 121
         },
         __self: this
       }, __jsx("a", {
@@ -854,7 +854,7 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 121
         },
         __self: this
       }, __jsx(GitHubIcon, {
@@ -862,13 +862,13 @@ function (_Component) {
         height: '2.6vw',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 110
+          lineNumber: 121
         },
         __self: this
       }))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 122
         },
         __self: this
       }, __jsx("a", {
@@ -876,7 +876,7 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 122
         },
         __self: this
       }, __jsx(TwitterIcon, {
@@ -884,13 +884,13 @@ function (_Component) {
         height: '2.6vw',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 122
         },
         __self: this
       }))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 123
         },
         __self: this
       }, __jsx("a", {
@@ -898,7 +898,7 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 123
         },
         __self: this
       }, __jsx(InstagramIcon, {
@@ -906,13 +906,13 @@ function (_Component) {
         height: '2.6vw',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 112
+          lineNumber: 123
         },
         __self: this
       }))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 124
         },
         __self: this
       }, __jsx("a", {
@@ -920,7 +920,7 @@ function (_Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 124
         },
         __self: this
       }, __jsx(LinkedInIcon, {
@@ -928,7 +928,7 @@ function (_Component) {
         height: '2.6vw',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 113
+          lineNumber: 124
         },
         __self: this
       })))))));
@@ -1065,7 +1065,7 @@ function (_Component) {
         className: 'section-layout',
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 41
         },
         __self: this
       }, this.props.children)));
@@ -11661,14 +11661,36 @@ var Home = function Home() {
       lineNumber: 14
     },
     __self: this
-  }));
+  }), __jsx("main", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("div", {
+    id: "cursor",
+    className: "cursor cursor--inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }), __jsx("div", {
+    id: "cursor-outer",
+    className: "cursor cursor--outer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  })));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FApplications%2FMAMP%2Fhtdocs%2Fpersonal%2Fkasun-io%2Fpages%2Findex.tsx ***!
   \******************************************************************************************************************************************/
@@ -11691,5 +11713,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
