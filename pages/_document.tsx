@@ -30,7 +30,7 @@ class CustomDocument extends NextDocument<Props> {
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0D0D11" />
           <link rel="stylesheet" href="/scripts/splitter/splitting.css"/>
 
-          {/* <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&family=DM+Serif+Display&display=swap" rel="stylesheet" /> */}
+          <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&family=DM+Serif+Display&display=swap" rel="stylesheet" />
 
           <script src="/scripts/ScrollMagic.js"></script>
           <script src="/scripts/debug.addIndicators.js"></script>
