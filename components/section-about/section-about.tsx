@@ -32,7 +32,7 @@ export default class SectionAbout extends Component<Props> {
             </h2>
 
             <p className={'section-about__description'}>
-              Hi, I’m a full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company.
+              Full-stack engineer and a designer based in Colombo, Sri Lanka.
 
               {/* <span className="lg-green" data-speed="1" style={{'transform': 'rotate(45deg)'}}></span> */}
               {/* <span className="lg-img" data-speed="1" style={{'background': 'url(https://github.blog/wp-content/themes/github-blog/assets/images/dot-left-corner.png)'}}></span> */}
