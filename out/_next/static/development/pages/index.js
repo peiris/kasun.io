@@ -540,7 +540,7 @@ var SectionAbout = /*#__PURE__*/function (_Component) {
           lineNumber: 34,
           columnNumber: 13
         }
-      }, "Hi, I\u2019m a full-stack engineer and a designer based in Colombo, Sri Lanka. Currently working full-time as senior tech-lead for UI-engineering team at Amplifyn, a digital product company."))), __jsx("div", {
+      }, "Full-stack engineer and a designer based in Colombo, Sri Lanka."))), __jsx("div", {
         id: "services",
         className: "section-wrapper",
         __self: this,
@@ -6247,7 +6247,7 @@ var Home = /*#__PURE__*/function (_Component) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 2:
 /*!******************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FApplications%2FMAMP%2Fhtdocs%2Fpersonal%2Fkasun-io%2Fpages%2Findex.tsx ***!
   \******************************************************************************************************************************************/
@@ -6270,5 +6270,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
