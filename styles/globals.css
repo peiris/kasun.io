@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #0635f9;
+  }
+
+  :root[class~="dark"] {
+    --color-primary: hsla(230, 100%, 53%, 1);
+  }
+
+  html {
+    @apply antialiased;
+  }
+}
+
+.dark {
+  @apply bg-gray-900 text-white;
+}
