@@ -107,13 +107,13 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
             <AvatarFallback>KP</AvatarFallback>
           </Avatar>
 
-          <h2
+          <h1
             className={cn("text-xl md:text-2xl font-medium shrink-0", {
               "md:text-lg": isMiniHeader,
             })}
           >
             {title}
-          </h2>
+          </h1>
         </div>
 
         <div className="flex ml-auto md:flex-1 lg:items-center md:justify-end gap-4 md:gap-6">
