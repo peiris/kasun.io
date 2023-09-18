@@ -103,7 +103,7 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
               "md:h-12 md:w-12": isMiniHeader,
             })}
           >
-            <AvatarImage src="/avatar.png" />
+            <AvatarImage alt="Kasun's Avatar" src="/avatar.png" />
             <AvatarFallback>KP</AvatarFallback>
           </Avatar>
 
@@ -117,14 +117,14 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
         </div>
 
         <div className="flex ml-auto md:flex-1 lg:items-center md:justify-end gap-4 md:gap-6">
-          <Link href={`mailto:${email}`}>
+          <Link href={`mailto:${email}`} title="Email Address">
             <Label className="hover:underline underline-offset-4">
               <Mails absoluteStrokeWidth strokeWidth={1} size={20} />
               <span className="hidden md:inline-flex">{email}</span>
             </Label>
           </Link>
 
-          <Link href={githubUrl} target="_blank">
+          <Link href={githubUrl} target="_blank" title="GitHub Link">
             <Label className="hover:underline underline-offset-4">
               <Github absoluteStrokeWidth strokeWidth={1} size={20} />
               <span className="hidden md:inline-flex">{githubUsername}</span>
