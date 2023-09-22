@@ -23,7 +23,7 @@ export function CareerCard({ data }: CareerCardProps) {
   const { title, year, action, badge } = data
 
   return (
-    <div className="grid md:grid-cols-[100px_1fr_1fr] lg:grid-cols-[100px_2fr_1fr] items-start py-4">
+    <div className="grid md:grid-cols-[100px_1fr_1fr] lg:grid-cols-[100px_2fr_1fr] items-center py-4">
       <div className="flex flex-col gap-2">
         <h3 className="font-medium">{year}</h3>
       </div>

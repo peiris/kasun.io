@@ -35,9 +35,9 @@ export default function RowSection({
         <div className="flex flex-col gap-5">
           <div className="grid">
             {items.map((service, index: number) => (
-              <div key={index}>
+              <div className="flex flex-col" key={index}>
                 <Separator />
-                <RowCard data={service} />
+                <RowCard data={service} className="items-center" />
                 {items.length - 1 === index && <Separator />}
               </div>
             ))}

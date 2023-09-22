@@ -2,6 +2,7 @@ import React from "react"
 import Link from "next/link"
 import { ArrowUpRight } from "lucide-react"
 
+import { cn } from "@/lib/utils"
 import { Badge, BadgeProps } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
 
@@ -21,11 +22,16 @@ export interface RowCardProps extends React.HTMLAttributes<HTMLDivElement> {
   data: RowCardData
 }
 
-export function RowCard({ data }: RowCardProps) {
+export function RowCard({ data, className }: RowCardProps) {
   const { title, url, description, action, badge, stack } = data
 
   return (
-    <div className="grid lg:grid-cols-[1fr_3fr_1fr] items-start py-4 gap-2 lg:gap-4">
+    <div
+      className={cn(
+        "grid lg:grid-cols-[1fr_3fr_1fr] items-start py-4 gap-2 lg:gap-4",
+        className
+      )}
+    >
       <div className="flex flex-col gap-1 shrink-0">
         {badge && (
           <div className="flex items-center gap-2">
