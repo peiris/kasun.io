@@ -14,6 +14,7 @@ export interface RowCardData {
     url?: string
   }
   badge?: BadgeProps
+  stack?: string[]
 }
 
 export interface RowCardProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -21,11 +22,11 @@ export interface RowCardProps extends React.HTMLAttributes<HTMLDivElement> {
 }
 
 export function RowCard({ data }: RowCardProps) {
-  const { title, url, description, action, badge } = data
+  const { title, url, description, action, badge, stack } = data
 
   return (
-    <div className="grid lg:grid-cols-[1fr_3fr_1fr] items-center py-4 gap-2 lg:gap-4">
-      <div className="flex flex-col gap-1">
+    <div className="grid lg:grid-cols-[1fr_3fr_1fr] items-start py-4 gap-2 lg:gap-4">
+      <div className="flex flex-col gap-1 shrink-0">
         {badge && (
           <div className="flex items-center gap-2">
             <Badge {...badge} />
@@ -48,6 +49,16 @@ export function RowCard({ data }: RowCardProps) {
 
       <div className="flex flex-col gap-2">
         <p className="text-gray-700 dark:text-white/80">{description}</p>
+
+        {stack && stack.length > 0 && (
+          <div className="flex items-center gap-1 flex-wrap">
+            {stack.map((item, index) => (
+              <Badge variant="secondary" key={index}>
+                {item}
+              </Badge>
+            ))}
+          </div>
+        )}
       </div>
 
       {action && (

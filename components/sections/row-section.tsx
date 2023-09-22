@@ -44,7 +44,9 @@ export default function RowSection({
           </div>
         </div>
 
-        {footNote && <p className="text-sm text-gray-500 dark:text-white/90">{footNote}</p>}
+        {footNote && (
+          <p className="text-sm text-gray-500 dark:text-white/90">{footNote}</p>
+        )}
       </div>
     </section>
   )

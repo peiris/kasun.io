@@ -25,21 +25,44 @@ export default function Home() {
               title: "WebApp Development",
               description:
                 "Applications developed with best in class technologies and practices.",
+              stack: [
+                "TypeScript",
+                "React.js",
+                "Next.js",
+                "Node.js",
+                "TanStack",
+                "GraphQL",
+                "MongoDB",
+                "MySQL",
+                "TailwindCSS",
+                "AWS",
+                "Vercel",
+              ],
             },
             {
               title: "Website Development",
               description:
                 "Websites developed with SEO and Accessibility in mind using modern technologies.",
+              stack: ["Next.js", "Strapi.js", "Payload CMS", "WordPress"],
             },
             {
               title: "Design Systems",
               description:
                 "Scalable, Re-usable, and Distributable Components and Styleguides for your Application.",
+              stack: [
+                "React.js",
+                "Storybook.js",
+                "Radix-UI",
+                "React-ARIA",
+                "Figma",
+                "TailwindCSS",
+              ],
             },
             {
               title: "UI / UX Design",
               description:
                 "World class user interfaces and user experiences for your application.",
+              stack: ["Figma", "Adobe Photoshop"],
             },
           ],
         }}
@@ -122,17 +145,17 @@ export default function Home() {
           items: [
             {
               title: "Founder / Chief Engineer",
-              year: "2020",
+              year: "2020 ~",
               action: {
                 title: "Karapincha Studio",
                 url: "https://karapincha.studio",
               },
               badge: {
-                children: "Current",
+                children: "Self Employed",
               },
             },
             {
-              title: "Senior Tech Lead",
+              title: "Senior Tech Lead (Frontend)",
               year: "2017",
               action: {
                 title: "Amplifyn",
@@ -140,7 +163,7 @@ export default function Home() {
               },
             },
             {
-              title: "Co-Founder / Senior Software Engineer",
+              title: "Senior Software Engineer",
               year: "2016",
               action: {
                 title: "Amplifyn",
