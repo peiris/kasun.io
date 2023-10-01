@@ -144,14 +144,14 @@ export default function Home() {
           title: "Career History",
           items: [
             {
-              title: "Founder / Chief Engineer",
+              title: "Full Stack Generalist",
               year: "2020 ~",
               action: {
                 title: "Karapincha Studio",
                 url: "https://karapincha.studio",
               },
               badge: {
-                children: "Self Employed",
+                children: "Freelance",
               },
             },
             {
