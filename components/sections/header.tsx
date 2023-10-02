@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react"
 import Link from "next/link"
 import { useMotionValueEvent, useScroll } from "framer-motion"
-import { Github, Mails, Moon, Sun } from "lucide-react"
+import { FileArchive, Github, Mails, Moon, Sun } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -88,7 +88,7 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
   return (
     <header
       className={cn(
-        "bg-white/90 dark:bg-gray-900/90 dark:text-white backdrop-blur-md pb-5 pt-8 md:pt-10 md:pb-8 sticky top-0",
+        "bg-white/90 dark:bg-gray-900/90 dark:text-white backdrop-blur-md pb-5 pt-8 md:pt-10 md:pb-8 sticky top-0 will-change-auto transition-all z-10",
         {
           "md:py-4 md:border-b dark:border-gray-800": isMiniHeader,
         },
@@ -98,25 +98,34 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
     >
       <div className="container flex items-center">
         <div className="flex flex-1 items-center gap-5 shrink-0">
-          <Avatar
-            className={cn("md:h-20 md:w-20", {
-              "md:h-12 md:w-12": isMiniHeader,
-            })}
-          >
-            <AvatarImage alt="Kasun's Avatar" src="/avatar.png" />
-            <AvatarFallback>KP</AvatarFallback>
-          </Avatar>
+          <Link href="/" className="flex flex-1 items-center gap-5 shrink-0">
+            <Avatar
+              className={cn("md:h-16 md:w-16", {
+                "md:h-12 md:w-12": isMiniHeader,
+              })}
+            >
+              <AvatarImage alt="Kasun's Avatar" src="/avatar.png" />
+              <AvatarFallback>KP</AvatarFallback>
+            </Avatar>
 
-          <h1
-            className={cn("text-xl md:text-2xl font-medium shrink-0", {
-              "md:text-lg": isMiniHeader,
-            })}
-          >
-            {title}
-          </h1>
+            <h1
+              className={cn("text-xl md:text-xl font-medium shrink-0", {
+                "md:text-lg": isMiniHeader,
+              })}
+            >
+              {title}
+            </h1>
+          </Link>
         </div>
 
         <div className="flex ml-auto md:flex-1 lg:items-center md:justify-end gap-4 md:gap-6">
+          <Link href={`/posts`} title="Kasun's blog posts">
+            <Label className="hover:underline underline-offset-4">
+              <FileArchive absoluteStrokeWidth strokeWidth={1} size={20} />
+              <span className="hidden md:inline-flex">Posts</span>
+            </Label>
+          </Link>
+
           <Link href={`mailto:${email}`} title="Email Address">
             <Label className="hover:underline underline-offset-4">
               <Mails absoluteStrokeWidth strokeWidth={1} size={20} />

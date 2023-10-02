@@ -1,3 +1,5 @@
+import { MDXRemote } from "next-mdx-remote/rsc"
+
 import Career from "@/components/sections/career"
 import Hero from "@/components/sections/hero"
 import RowSection from "@/components/sections/row-section"
@@ -9,8 +11,8 @@ export default function Home() {
         data={{
           title: (
             <>
-              A <span className="text-primary">full-stack</span> developer
-              specializes in JavaScript.
+              A <span className="text-primary">full-stack</span> generalist
+              specializes in <span className="text-primary">JavaScript</span>.
             </>
           ),
           footNote: "With a Decade of professional experience.",
@@ -19,7 +21,7 @@ export default function Home() {
 
       <RowSection
         data={{
-          title: "What I can offer",
+          title: "Professional Skills",
           items: [
             {
               title: "WebApp Development",
