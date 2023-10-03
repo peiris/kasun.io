@@ -1,5 +1,3 @@
-import { MDXRemote } from "next-mdx-remote/rsc"
-
 import Career from "@/components/sections/career"
 import Hero from "@/components/sections/hero"
 import RowSection from "@/components/sections/row-section"

@@ -30,6 +30,7 @@ export const metadata: Metadata = {
     creator: "@khpeiris",
     card: "summary_large_image",
   },
+  metadataBase: new URL(process.env.WEBSITE_URL as string),
 }
 
 export default function RootLayout({
