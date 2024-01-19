@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react"
 import Link from "next/link"
 import { useMotionValueEvent, useScroll } from "framer-motion"
-import { FileArchive, Github, Mails, Moon, Sun } from "lucide-react"
+import { Github, Mails, Moon, Sun } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -27,7 +27,7 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
   const [isMiniHeader, setIsMiniHeader] = useState<boolean>(false)
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
 
-  const { title, email, githubUsername, githubUrl } = data
+  const { title, email, githubUrl } = data
 
   /**
    * Handle scroll event to toggle mini header
@@ -119,13 +119,6 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
         </div>
 
         <div className="flex ml-auto md:flex-1 lg:items-center md:justify-end gap-4 md:gap-6">
-          <Link href={`/posts`} title="Kasun's blog posts">
-            <Label className="hover:underline underline-offset-4">
-              <FileArchive absoluteStrokeWidth strokeWidth={1} size={20} />
-              <span className="hidden md:inline-flex">Posts</span>
-            </Label>
-          </Link>
-
           <Link href={`mailto:${email}`} title="Email Address">
             <Label className="hover:underline underline-offset-4">
               <Mails absoluteStrokeWidth strokeWidth={1} size={20} />
@@ -136,7 +129,6 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
           <Link href={githubUrl} target="_blank" title="GitHub Link">
             <Label className="hover:underline underline-offset-4">
               <Github absoluteStrokeWidth strokeWidth={1} size={20} />
-              <span className="hidden md:inline-flex">{githubUsername}</span>
             </Label>
           </Link>
 

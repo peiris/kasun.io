@@ -103,9 +103,9 @@ export default function Home() {
           items: [
             {
               title: "John Morris Group",
-              url: "https://johnmorris.kp.lk",
+              url: "https://www.johnmorrisgroup.com",
               description:
-                "Design, planning and UI development of the John Morris Group website.",
+                "Design, structure planning and UI development of the John Morris Group website.",
               action: {
                 title: "(Case study coming soon)",
               },
