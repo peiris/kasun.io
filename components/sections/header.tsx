@@ -119,19 +119,19 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
         </div>
 
         <div className="flex ml-auto md:flex-1 lg:items-center md:justify-end gap-4 md:gap-6">
-          <Link href={`/posts`} title="Kasun's blog posts">
+          {/* <Link href={`/posts`} title="Kasun's blog posts">
             <Label className="hover:underline underline-offset-4">
               <FileArchive absoluteStrokeWidth strokeWidth={1} size={20} />
               <span className="hidden md:inline-flex">Posts</span>
             </Label>
-          </Link>
+          </Link> */}
 
-          <Link href={`mailto:${email}`} title="Email Address">
+          {/* <Link href={`mailto:${email}`} title="Email Address">
             <Label className="hover:underline underline-offset-4">
               <Mails absoluteStrokeWidth strokeWidth={1} size={20} />
               <span className="hidden md:inline-flex">{email}</span>
             </Label>
-          </Link>
+          </Link> */}
 
           <Link href={githubUrl} target="_blank" title="GitHub Link">
             <Label className="hover:underline underline-offset-4">

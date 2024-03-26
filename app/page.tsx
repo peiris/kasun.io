@@ -101,7 +101,7 @@ export default function Home() {
           items: [
             {
               title: "John Morris Group",
-              url: "https://johnmorris.kp.lk",
+              url: "https://johnmorrisgroup.com",
               description:
                 "Design, planning and UI development of the John Morris Group website.",
               action: {
@@ -151,7 +151,7 @@ export default function Home() {
                 url: "https://karapincha.studio",
               },
               badge: {
-                children: "Freelance",
+                children: "Independent Consultant",
               },
             },
             {
