@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react"
 import Link from "next/link"
 import { useMotionValueEvent, useScroll } from "framer-motion"
-import { Github, Moon, Sun } from "lucide-react"
+import { Dribbble, Github, Moon, Sun } from "lucide-react"
 
 import { cn } from "@/lib/utils"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -15,6 +15,7 @@ export interface HeaderData {
   email: string
   githubUsername: string
   githubUrl: string
+  dribbleUrl: string
 }
 
 export interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
@@ -27,7 +28,7 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
   const [isMiniHeader, setIsMiniHeader] = useState<boolean>(false)
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false)
 
-  const { title, email, githubUrl } = data
+  const { title, githubUrl, dribbleUrl } = data
 
   /**
    * Handle scroll event to toggle mini header
@@ -119,9 +120,17 @@ export default function Header({ data, className, ...restProps }: HeaderProps) {
         </div>
 
         <div className="flex ml-auto md:flex-1 lg:items-center md:justify-end gap-4 md:gap-6">
-          <Link href={githubUrl} target="_blank" title="GitHub Link">
+          <Link href={dribbleUrl} target="_blank" title="Kasun's Dribbble Link">
+            <Label className="hover:underline underline-offset-4">
+              <Dribbble absoluteStrokeWidth strokeWidth={1} size={20} />
+              <span className="hidden md:inline-flex">Designs</span>
+            </Label>
+          </Link>
+
+          <Link href={githubUrl} target="_blank" title="Kasun's GitHub Link">
             <Label className="hover:underline underline-offset-4">
               <Github absoluteStrokeWidth strokeWidth={1} size={20} />
+              <span className="hidden md:inline-flex">Github</span>
             </Label>
           </Link>
 

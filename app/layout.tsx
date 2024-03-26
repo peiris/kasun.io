@@ -47,6 +47,7 @@ export default function RootLayout({
             email: "peiris@kasun.io",
             githubUsername: "peiris",
             githubUrl: "https://github.com/peiris",
+            dribbleUrl: "https://dribbble.com/peiris",
           }}
         />
 
