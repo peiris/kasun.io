@@ -103,7 +103,7 @@ export default function Home() {
               title: "John Morris Group",
               url: "https://johnmorrisgroup.com",
               description:
-                "Design, planning and UI development of the John Morris Group website.",
+                "Design, structure planning and UI development of the John Morris Group website.",
               action: {
                 title: "(Case study coming soon)",
               },
